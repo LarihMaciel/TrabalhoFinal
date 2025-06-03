@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Gastos Pessoais</title>
+    <link rel="shortcut icon" href="money.png">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <main class="container">
+        <h1>Controle de Gastos</h1>
+
+        <section class="input-container">
+            <input type="text" id="desc-input" placeholder="Descrição">
+            <input type="number" id="valor-input" placeholder="Valor">
+            <select id="tipo-input">
+                <option value="entrada">Entrada</option>
+                <option value="saida">Saída</option>
+            </select>
+            <button id="add-transacao">Adicionar</button>
+        </section>
+
+        <section class="saldo">
+            <h2>Saldo atual: <span id="saldo">R$ 0.00</span></h2>
+        </section>
+
+        <ul id="transacao-list"></ul>
+    </main>
+
+    <footer>
+        &#36 Controle de Gastos Pessoais &#36
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

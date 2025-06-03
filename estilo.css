@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: rgb(82, 18, 66);
+    padding: 20px;
+    background-image: url('roxo.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: rgba(250, 181, 250, 0.7);
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow: 5px 5px 15px rgb(142, 36, 142);
+}
+
+.input-container input, .input-container select {
+    padding: 10px;
+    margin: 5px 0;
+    width: calc(100% - 22px);
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(142, 36, 142);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    position: fixed; 
+    bottom: 0;       
+    left: 0;
+    width: 100%;
+    background-color: rgb(244, 179, 244); 
+    border-top: 1px solid rgb(244, 179, 244); 
+    text-align: center; 
+    padding: 15px 0; 
+    color: rgb(142, 36, 142);
+    font-family: Arial, sans-serif;
+}
+
+.transacao {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.entrada {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.saida {
+    background-color: #f8d7da;
+    color: #721c24;
+}
